@@ -1,16 +1,79 @@
-# React + Vite
+# Task Manager Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface web para gerenciamento de tarefas, desenvolvida com React e Vite.
 
-Currently, two official plugins are available:
+**[Demo ao vivo](https://portfoliotaskmanager.netlify.app)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- Axios
+- React Router DOM
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades
+
+- Tela de login e cadastro
+- Dashboard com criação de tarefas
+- Definição de prioridade (baixa, média, alta)
+- Definição de data
+- Marcar tarefa como concluída
+- Deletar tarefa
+- Logout
+- Layout responsivo
+
+---
+
+## Como rodar localmente
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/jotinharedoc/task-manager-frontend.git
+cd task-manager-frontend
+```
+
+### 2. Instale as dependências
+
+```bash
+npm install
+```
+
+### 3. Configure o `.env`
+
+Crie um arquivo `.env` na raiz:
+
+```env
+VITE_API_URL=http://localhost:3001
+```
+
+### 4. Rode o projeto
+
+```bash
+npm run dev
+```
+
+Acesse em `http://localhost:5173`
+
+---
+
+## Repositório do Backend
+
+[task-manager-api](https://github.com/jotinharedoc/task-manager-api)
+
+---
+
+## Deploy
+
+- **Frontend:** [Netlify](https://netlify.com)
+- **Backend:** [Railway](https://railway.app)
+
+---
+
+## Autor
+
+Desenvolvido por [@jotinharedoc](https://github.com/jotinharedoc)
